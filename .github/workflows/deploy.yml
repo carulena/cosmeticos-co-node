@@ -1,10 +1,5 @@
-name: Deploy master branch
-
-on:
-  push:
-    branches:
-      - master
-
+name: deploy to lambda
+on: [push]
 jobs:
   deploy:
     name: deploy
