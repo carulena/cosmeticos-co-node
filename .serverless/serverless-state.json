@@ -205,7 +205,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/cosmeticosco/dev/1720909679403-2024-07-13T22:27:59.403Z/cosmeticosco.zip"
+                "S3Key": "serverless/cosmeticosco/dev/1721014950190-2024-07-15T03:42:30.190Z/cosmeticosco.zip"
               },
               "Handler": "handler.handler",
               "Runtime": "nodejs20.x",
@@ -228,14 +228,14 @@
               "CosmeticosDashcoDashapiLogGroup"
             ]
           },
-          "CosmeticosDashcoDashapiLambdaVersionz6qaNldNpW2b0xWmBdvOx6kxUCuwWvoYHO8Osvelc": {
+          "CosmeticosDashcoDashapiLambdaVersionPR6Nzqih82VOsX4P1BrJVCNMPgznJpSKWgyNjrh17Y": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "CosmeticosDashcoDashapiLambdaFunction"
               },
-              "CodeSha256": "tZqZpKnMlIP5uR6ZX2/hHsHPoEhjSFyKMzW5yrPrPqA="
+              "CodeSha256": "UJSboDMUnZLHjWaaNFuAj/TV4aY5ehjIXyDHAb1PYpk="
             }
           },
           "HttpApi": {
@@ -362,7 +362,7 @@
           "CosmeticosDashcoDashapiLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "CosmeticosDashcoDashapiLambdaVersionz6qaNldNpW2b0xWmBdvOx6kxUCuwWvoYHO8Osvelc"
+              "Ref": "CosmeticosDashcoDashapiLambdaVersionPR6Nzqih82VOsX4P1BrJVCNMPgznJpSKWgyNjrh17Y"
             },
             "Export": {
               "Name": "sls-cosmeticosco-dev-CosmeticosDashcoDashapiLambdaFunctionQualifiedArn"
@@ -511,7 +511,7 @@
         "timeout": 6,
         "runtime": "nodejs20.x",
         "vpc": {},
-        "versionLogicalId": "CosmeticosDashcoDashapiLambdaVersionz6qaNldNpW2b0xWmBdvOx6kxUCuwWvoYHO8Osvelc"
+        "versionLogicalId": "CosmeticosDashcoDashapiLambdaVersionPR6Nzqih82VOsX4P1BrJVCNMPgznJpSKWgyNjrh17Y"
       }
     },
     "resources": {
@@ -566,7 +566,7 @@
     "artifact": "C:\\Users\\aneca\\Desktop\\Repos\\Teste Técnico\\cosmeticos-co-node\\.serverless\\cosmeticosco.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/cosmeticosco/dev/1720909679403-2024-07-13T22:27:59.403Z",
+    "artifactDirectoryName": "serverless/cosmeticosco/dev/1721014950190-2024-07-15T03:42:30.190Z",
     "artifact": "cosmeticosco.zip"
   }
 }

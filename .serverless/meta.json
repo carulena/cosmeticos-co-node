@@ -238,7 +238,7 @@
                         "S3Bucket": {
                           "Ref": "ServerlessDeploymentBucket"
                         },
-                        "S3Key": "serverless/cosmeticosco/dev/1720909679403-2024-07-13T22:27:59.403Z/cosmeticosco.zip"
+                        "S3Key": "serverless/cosmeticosco/dev/1721014950190-2024-07-15T03:42:30.190Z/cosmeticosco.zip"
                       },
                       "Handler": "handler.handler",
                       "Runtime": "nodejs20.x",
@@ -261,14 +261,14 @@
                       "CosmeticosDashcoDashapiLogGroup"
                     ]
                   },
-                  "CosmeticosDashcoDashapiLambdaVersionz6qaNldNpW2b0xWmBdvOx6kxUCuwWvoYHO8Osvelc": {
+                  "CosmeticosDashcoDashapiLambdaVersionPR6Nzqih82VOsX4P1BrJVCNMPgznJpSKWgyNjrh17Y": {
                     "Type": "AWS::Lambda::Version",
                     "DeletionPolicy": "Retain",
                     "Properties": {
                       "FunctionName": {
                         "Ref": "CosmeticosDashcoDashapiLambdaFunction"
                       },
-                      "CodeSha256": "tZqZpKnMlIP5uR6ZX2/hHsHPoEhjSFyKMzW5yrPrPqA="
+                      "CodeSha256": "UJSboDMUnZLHjWaaNFuAj/TV4aY5ehjIXyDHAb1PYpk="
                     }
                   },
                   "HttpApi": {
@@ -398,7 +398,7 @@
                   "CosmeticosDashcoDashapiLambdaFunctionQualifiedArn": {
                     "Description": "Current Lambda function version",
                     "Value": {
-                      "Ref": "CosmeticosDashcoDashapiLambdaVersionz6qaNldNpW2b0xWmBdvOx6kxUCuwWvoYHO8Osvelc"
+                      "Ref": "CosmeticosDashcoDashapiLambdaVersionPR6Nzqih82VOsX4P1BrJVCNMPgznJpSKWgyNjrh17Y"
                     },
                     "Export": {
                       "Name": "sls-cosmeticosco-dev-CosmeticosDashcoDashapiLambdaFunctionQualifiedArn"
@@ -539,7 +539,7 @@
                 "timeout": 6,
                 "runtime": "nodejs20.x",
                 "vpc": {},
-                "versionLogicalId": "CosmeticosDashcoDashapiLambdaVersionz6qaNldNpW2b0xWmBdvOx6kxUCuwWvoYHO8Osvelc"
+                "versionLogicalId": "CosmeticosDashcoDashapiLambdaVersionPR6Nzqih82VOsX4P1BrJVCNMPgznJpSKWgyNjrh17Y"
               }
             },
             "resources": {
@@ -810,7 +810,7 @@
                   "S3Bucket": {
                     "Ref": "ServerlessDeploymentBucket"
                   },
-                  "S3Key": "serverless/cosmeticosco/dev/1720909679403-2024-07-13T22:27:59.403Z/cosmeticosco.zip"
+                  "S3Key": "serverless/cosmeticosco/dev/1721014950190-2024-07-15T03:42:30.190Z/cosmeticosco.zip"
                 },
                 "Handler": "handler.handler",
                 "Runtime": "nodejs20.x",
@@ -833,14 +833,14 @@
                 "CosmeticosDashcoDashapiLogGroup"
               ]
             },
-            "CosmeticosDashcoDashapiLambdaVersionz6qaNldNpW2b0xWmBdvOx6kxUCuwWvoYHO8Osvelc": {
+            "CosmeticosDashcoDashapiLambdaVersionPR6Nzqih82VOsX4P1BrJVCNMPgznJpSKWgyNjrh17Y": {
               "Type": "AWS::Lambda::Version",
               "DeletionPolicy": "Retain",
               "Properties": {
                 "FunctionName": {
                   "Ref": "CosmeticosDashcoDashapiLambdaFunction"
                 },
-                "CodeSha256": "tZqZpKnMlIP5uR6ZX2/hHsHPoEhjSFyKMzW5yrPrPqA="
+                "CodeSha256": "UJSboDMUnZLHjWaaNFuAj/TV4aY5ehjIXyDHAb1PYpk="
               }
             },
             "HttpApi": {
@@ -970,7 +970,7 @@
             "CosmeticosDashcoDashapiLambdaFunctionQualifiedArn": {
               "Description": "Current Lambda function version",
               "Value": {
-                "Ref": "CosmeticosDashcoDashapiLambdaVersionz6qaNldNpW2b0xWmBdvOx6kxUCuwWvoYHO8Osvelc"
+                "Ref": "CosmeticosDashcoDashapiLambdaVersionPR6Nzqih82VOsX4P1BrJVCNMPgznJpSKWgyNjrh17Y"
               },
               "Export": {
                 "Name": "sls-cosmeticosco-dev-CosmeticosDashcoDashapiLambdaFunctionQualifiedArn"
@@ -1111,7 +1111,7 @@
           "timeout": 6,
           "runtime": "nodejs20.x",
           "vpc": {},
-          "versionLogicalId": "CosmeticosDashcoDashapiLambdaVersionz6qaNldNpW2b0xWmBdvOx6kxUCuwWvoYHO8Osvelc"
+          "versionLogicalId": "CosmeticosDashcoDashapiLambdaVersionPR6Nzqih82VOsX4P1BrJVCNMPgznJpSKWgyNjrh17Y"
         }
       },
       "resources": {
@@ -1146,7 +1146,7 @@
     "options": {},
     "error": null,
     "params": {},
-    "machineId": "e686c429be2e9e835ad77da2daf604a1",
+    "machineId": "d390a3d90d018aee9d1806f6486fa18b",
     "accessKeyV2": "<REDACTED>",
     "accessKeyV1": "<REDACTED>",
     "orgId": "edb0dfa9-a459-41c5-9d14-4ba3e5ea35a7",
@@ -1157,9 +1157,15 @@
       "requiredAuthentication": false,
       "orgFeaturesInUse": {
         "providers": false,
-        "monitoring": false
+        "monitoring": true
       },
-      "orgObservabilityIntegrations": null,
+      "orgObservabilityIntegrations": [
+        {
+          "integrationId": "iVL4LCouDqxS8njkqU6WJB",
+          "awsAccountId": "590183947522",
+          "status": "alive"
+        }
+      ],
       "serviceAppId": "0Fqzr70YFBL63dWp9h",
       "serviceProvider": null,
       "instanceParameters": null
@@ -1173,7 +1179,7 @@
     "serviceProviderAwsCfStackName": "cosmeticosco-dev",
     "serviceProviderAwsCfStackId": "arn:aws:cloudformation:us-east-1:590183947522:stack/cosmeticosco-dev/0ef3d5d0-4143-11ef-8932-12c4bf9bab3f",
     "serviceProviderAwsCfStackCreated": "2024-07-13T18:09:34.182Z",
-    "serviceProviderAwsCfStackUpdated": "2024-07-13T18:52:48.320Z",
+    "serviceProviderAwsCfStackUpdated": "2024-07-15T03:42:59.374Z",
     "serviceProviderAwsCfStackStatus": "UPDATE_COMPLETE",
     "serviceProviderAwsCfStackOutputs": [
       {
@@ -1184,7 +1190,7 @@
       },
       {
         "OutputKey": "CosmeticosDashcoDashapiLambdaFunctionQualifiedArn",
-        "OutputValue": "arn:aws:lambda:us-east-1:590183947522:function:cosmeticosco-dev-cosmeticos-co-api:6",
+        "OutputValue": "arn:aws:lambda:us-east-1:590183947522:function:cosmeticosco-dev-cosmeticos-co-api:8",
         "Description": "Current Lambda function version",
         "ExportName": "sls-cosmeticosco-dev-CosmeticosDashcoDashapiLambdaFunctionQualifiedArn"
       },
