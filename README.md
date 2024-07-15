@@ -17,5 +17,7 @@ Foi publicado na AWS utilizando Amplify
 [Repositorio](https://github.com/carulena/cosmeticos-co-node)
 
 Consiste em uma Lambda Function criada em Node.js + express.
+
 Conecta-se ao banco de dados DynamoDB utilizando AWS SDK. 
+
 Sua publicação foi feita utilizando [serverless](https://www.serverless.com/) e github actions.
