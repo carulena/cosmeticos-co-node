@@ -236,9 +236,14 @@
     "serviceProviderAwsCfStackName": "cosmeticosco-dev",
     "serviceProviderAwsCfStackId": "arn:aws:cloudformation:us-east-1:590183947522:stack/cosmeticosco-dev/0ef3d5d0-4143-11ef-8932-12c4bf9bab3f",
     "serviceProviderAwsCfStackCreated": "2024-07-13T18:09:34.182Z",
-    "serviceProviderAwsCfStackUpdated": "2024-07-15T03:42:59.374Z",
+    "serviceProviderAwsCfStackUpdated": "2024-07-15T20:05:08.086Z",
     "serviceProviderAwsCfStackStatus": "UPDATE_COMPLETE",
     "serviceProviderAwsCfStackOutputs": [
+      {
+        "OutputKey": "EnterpriseLogAccessIamRole",
+        "OutputValue": "arn:aws:iam::590183947522:role/cosmeticosco-dev-EnterpriseLogAccessIamRole-m6sqK3VWpExq",
+        "ExportName": "sls-cosmeticosco-dev-EnterpriseLogAccessIamRole"
+      },
       {
         "OutputKey": "HttpApiId",
         "OutputValue": "xfgxkvs7gg",
@@ -247,7 +252,7 @@
       },
       {
         "OutputKey": "CosmeticosDashcoDashapiLambdaFunctionQualifiedArn",
-        "OutputValue": "arn:aws:lambda:us-east-1:590183947522:function:cosmeticosco-dev-cosmeticos-co-api:8",
+        "OutputValue": "arn:aws:lambda:us-east-1:590183947522:function:cosmeticosco-dev-cosmeticos-co-api:9",
         "Description": "Current Lambda function version",
         "ExportName": "sls-cosmeticosco-dev-CosmeticosDashcoDashapiLambdaFunctionQualifiedArn"
       },

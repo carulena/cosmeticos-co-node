@@ -8,9 +8,11 @@ export default async function getItembyId(id){
     var params = {
         TableName : "cosmeticos-co-produtos",
         Key: {
-            produto_id: id
+            produto_id: Number(id)
         }
     };
-    return await docClient.send(new ScanCommand(params));
+    
+    console.log(params)
+    return await docClient.send(new GetCommand(params));
 
 }

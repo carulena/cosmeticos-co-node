@@ -3,9 +3,9 @@ import getItembyId from '../services/getItembyId.js'
  export default async function getItemById(req, res){
     
   try {
+    console.log(req.params.id)
     const data = await getItembyId(req.params.id);
-    const object = data.Items
-    return res.json(object);
+    return res.json(data.Item);
   } catch (error) {
         return res.status(500).json(error.message);
   }
