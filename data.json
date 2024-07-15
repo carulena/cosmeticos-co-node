@@ -1,5 +1,6 @@
 {
     "resource": "/",
     "path": "/produtos",
+    "pathParameters":{"id": "2"},
     "httpMethod": "GET"
   }
